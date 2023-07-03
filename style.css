@@ -121,10 +121,11 @@ body{
     margin-top:1%;
     margin-bottom:1%;
     
-    font-size:200%;
+    font-size:7vw;
   }
   .empresa{
     margin-top:1%;margin-bottom:1%;
+    font-size:4vw;
   }
 .contacto{
    width: 90%;
@@ -155,7 +156,7 @@ margin-left:50%;
 .vemos{
   position:relative;
  background-color:blue;
-  font-size:80%;
+  font-size:4vw;
 }
 }
 
