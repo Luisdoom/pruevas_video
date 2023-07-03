@@ -1,4 +1,15 @@
+a:link, a:visited, a:hover, a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+
+
+body{
+  background-color: black;
+  font-family: 'Cinzel', serif;color:white;
+}
 #myVideo
 {
    position:absolute;
@@ -14,4 +25,32 @@
 {
   min-width: 100%;
   min-height: 100%;
+}
+
+.contacto{
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+color:white;
+background-color:red;
+
+text-align:center;
+}
+.nombre-completo{
+ color:white;
+ position:absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+width: 90%;
+color:white;
+background-color:red;
+text-align:center;
+}
+.vemos{
+  position:relative;
+ background-color:blue;
+  font-size:80%;
 }
