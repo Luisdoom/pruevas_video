@@ -4,7 +4,7 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-
+@media(orientation: landscape){
 
 body{
   background-color: black;
@@ -26,8 +26,30 @@ body{
   min-width: 100%;
   min-height: 100%;
 }
-
+  .liga{
+    margin-top:1%;margin-bottom:1%;
+    
+  }
+   .red{
+    margin-top:1%;margin-bottom:1%;
+  }
+  .llamadaAccion{
+    
+     margin-top:1%;margin-bottom:1%;
+    
+  }
+  
+  .nombre{
+    margin-top:1%;
+    margin-bottom:1%;
+    
+    font-size:430%;
+  }
+  .empresa{
+    margin-top:1%;margin-bottom:1%;
+  }
 .contacto{
+  
   position:absolute;
   top: 20%;
   left: 50%;
@@ -41,16 +63,99 @@ text-align:center;
 .nombre-completo{
  color:white;
  position:absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-width: 90%;
+top: 85%;
+
+transform: translate(-50%, -50%);
+width: 85%;
 color:white;
 background-color:red;
 text-align:center;
+margin-right:50%;
+margin-left:50%;
+ 
 }
 .vemos{
   position:relative;
  background-color:blue;
   font-size:80%;
 }
+}
+
+
+@media(orientation: portrait){
+
+body{
+  background-color: black;
+  font-family: 'Cinzel', serif;color:white;
+}
+#myVideo
+{
+   position:absolute;
+   height:100%;
+   width:100%;
+    overflow: hidden;
+  
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#myVideoC video
+{
+  min-width: 100%;
+  min-height: 100%;
+}
+  .liga{
+    margin-top:1%;margin-bottom:1%;
+    
+  }
+   .red{
+    margin-top:1%;margin-bottom:1%;
+  }
+  .llamadaAccion{
+   
+     margin-top:1%;margin-bottom:1%;
+    
+  }
+  
+  .nombre{
+    margin-top:1%;
+    margin-bottom:1%;
+    
+    font-size:200%;
+  }
+  .empresa{
+    margin-top:1%;margin-bottom:1%;
+  }
+.contacto{
+   width: 90%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+color:white;
+background-color:red;
+
+text-align:center;
+}
+.nombre-completo{
+ color:white;
+ position:absolute;
+top: 85%;
+
+transform: translate(-50%, -50%);
+width: 85%;
+color:white;
+background-color:red;
+text-align:center;
+margin-right:50%;
+margin-left:50%;
+ 
+}
+.vemos{
+  position:relative;
+ background-color:blue;
+  font-size:80%;
+}
+}
+
