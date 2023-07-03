@@ -114,7 +114,7 @@ body{
   .llamadaAccion{
    
    
-     font-size:4vw;
+     
     
   }
   
@@ -152,12 +152,9 @@ background-color:red;
 text-align:center;
 margin-right:50%;
 margin-left:50%;
+font-size:4vw;
  
 }
-.vemos{
-  position:relative;
- background-color:blue;
-  font-size:4vw;
-}
+
 }
 
