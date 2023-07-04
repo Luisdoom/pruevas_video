@@ -113,8 +113,8 @@ body{
   }
   .llamadaAccion{
    
-   
-     font-size:4vw;
+     margin-top:1%;margin-bottom:1%;
+     
     
   }
   
@@ -160,3 +160,4 @@ margin-left:50%;
   font-size:4vw;
 }
 }
+
